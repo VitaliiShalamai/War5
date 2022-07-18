@@ -63,6 +63,15 @@
                     для вашего бизнеса
                 </h1>
                 <button type="button" class="main-btn">Заказать услугу</button>
+                <div class="backdrop is-hidden">
+                    <div class="modal">
+                        <button class="close-btn">
+                            <svg class="modal-icon">
+                                <use href="./images/icons.svg#close"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -383,6 +392,9 @@
             </div>
         </div>
     </footer>
+
+    Fixed Header script
+
     <script>
         const { height:pageHeaderHeight } = document
           .querySelector(".page-header")
@@ -390,6 +402,7 @@
 
         document.body.style.paddingTop = `${pageHeaderHeight}px`;
     </script>
+
 
 </body>
 
