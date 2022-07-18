@@ -56,6 +56,12 @@ section {
 
 header {
   border-bottom: 1px solid #ececec;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  min-height: 80px;
+  background-color: var(--title-color);
 }
 
 .header {
