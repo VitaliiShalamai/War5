@@ -139,7 +139,7 @@ header {
   background: var(--accent-color);
 }
 
-.nav-contact {
+.contacts-link {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -150,8 +150,8 @@ header {
   fill: var(--text-color);
 }
 
-.nav-contact:hover,
-.nav-contact:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -200,7 +200,7 @@ header {
   color: var(--title-color);
 }
 
-.main-btn {
+.hero-btn {
   display: inline-block;
   min-width: 200px;
   min-height: 50px;
@@ -220,8 +220,8 @@ header {
   letter-spacing: 0.06em;
 }
 
-.main-btn:hover,
-.main-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   color: var(--accent-color);
   background-color: var(--title-color);
 }
@@ -609,7 +609,7 @@ header {
   display: block;
 }
 
-.project-thumb {
+.project-qwe {
   position: relative;
 }
 
